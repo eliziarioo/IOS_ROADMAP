@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap iOS — Bernardo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Roadmap iOS</h1>
+    <p class="sub">Front-end → Swift → iOS Engineer · clique nos itens para marcar como concluídos</p>
+  </header>
+
+  <div class="progress-card">
+    <div class="progress-top">
+      <span class="label">Progresso geral</span>
+      <span class="pct" id="overallPct">0%</span>
+    </div>
+    <div class="bar-track"><div class="bar-fill" id="overallBar" style="width:0%"></div></div>
+    <div class="progress-sub">
+      <span id="overallCount">0 de 0 passos</span>
+      <span id="phaseCount">0 de 8 fases completas</span>
+    </div>
+  </div>
+
+  <div id="phases"></div>
+
+  <button class="reset-btn" id="resetBtn">Reiniciar progresso</button>
+  <footer>Seu progresso fica salvo neste navegador.</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
